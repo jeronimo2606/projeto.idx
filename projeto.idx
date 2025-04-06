@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus links</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+    }
+    
+    body {
+       background-color: #141414;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    div {
+        background-color: #1f1f1f;
+        width: 384px;
+        padding: 40px;
+        text-align: center;
+        border-radius: 12px;
+    }
+    
+    h1, p, a {
+       color:#fff;
+    }
+    
+    div img {
+        border-radius: 50%;
+        margin-bottom: 24px;
+    }
+    
+    div h1 {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    
+    div strong {
+       color: #c4f82a;
+       font-size: 14px;
+       line-height: 21px;
+    }
+    
+    div p {
+        margin-block: 24px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    div a + a {
+        margin-top: 15px;
+    }
+    
+    div a {
+        display: block;
+        text-decoration: none;
+        background-color: #333333;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    div a:hover {
+        background-color: #c4f82a;
+        color:#141414;
+        transition: 0.7s;
+    }
+</style>
+<body>
+    <div>
+        <img src="477245021_437879855982662_1248845075281346502_n.jpg" alt="imagem do criador da pagina de links">
+         <h1>Gabriel Jeronimo</h1>
+         <strong>São Paulo, Brasil</strong>
+
+         <p>Desenvolvedor Front-end</p>
+
+         <a href="https://www.instagram.com/bielths/" target="_blank" >Instagram</a>
+         <a href="https://www.tiktok.com/@gabzxs.exe" target="_blank">Tik Tok</a>
+         <a href="https://wa.me/5511968686028" target="_blank">WhatsApp</a>
+         <a href="https://github.com/jeronimo2606" target="_blank">GitHub</a>
+    </div>
+</body>
+</html>
